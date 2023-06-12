@@ -1,29 +1,47 @@
 body{
-    text-align: center;
+
 }
-.topnav1{
-    font-size: larger;
+.logo{
     text-align: left;
-    justify-content: space-around;
 
 }
-.topnav2 input{
-    width: 50px;
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: center;
-    width: 50%;
-    background: white;
+
+/* .titlebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 80px;
+    background: #E3E6F3;
+    text-align: right;
+} */
+
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 2opx 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
 }
-.shopping-categories{
-    /* display:flex; */
-    margin-top: 30px;
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Itmes1{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+
 }
- 
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    color: red;
+}
+
+#navbar li a:hover{
+    color: aqua;
+}

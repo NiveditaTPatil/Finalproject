@@ -1,0 +1,23 @@
+body{
+    text-align: right;
+    background-color:rgb(227, 158, 170);
+    background-image:url('./Resources/images/background\ img.jpg');
+}
+.logo{
+    text-align: center;
+}
+
+
+.topnav1{
+    font-size: larger;
+    text-align: right;
+    justify-content: space-around;
+}
+
+   
+    .image {
+        text-align: center;
+   }
+          
+    
+ 
